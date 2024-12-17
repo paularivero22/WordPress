@@ -1,0 +1,141 @@
+/*
+Theme Name: Blogrift
+Theme URI: https://themeansar.com/free-themes/blogrift/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Blogrift is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogrift is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Blogrift is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogus/blogrift/ and documentation at https://docs.themeansar.com/docs/blogus/
+Version: 0.7
+Requires at least: 5.6
+Requires PHP: 7.4
+Tested up to: 6.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: blogus
+Text Domain: blogrift
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Blogrift WordPress Theme is child theme of Newsup, Copyright 2020 Themeansar
+Blogrift is distributed under the terms of the GNU General Public License v3
+
+Blogrift is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+a:focus {
+    outline: 1px solid;
+} 
+.bs-headfive .navbar-wp {  
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	box-shadow: var(--bxsh);
+}
+.bs-headfive .bs-header-main .inner {
+    display: flex;
+    padding: 30px 0;
+    margin: 0;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.bs-headfive .navbar-wp .navbar-nav > li> a {
+    padding: 8px 15px;
+    font-weight: 600; 
+}
+.modal .btn-close{
+    background-image: none;
+}
+.right-nav a{
+    box-shadow: none;
+}
+.bs-social li a:focus, .right-nav a:focus{
+    outline: none;
+}
+.bs-blog-category a{
+    padding: 0;
+    font-weight: 500;
+}
+.bs-blog-post, .list-blog.bs-blog-post{
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 3.125rem;
+}
+.bs-blog-post:hover, .bs-sidebar .bs-widget, .wd-back{
+    box-shadow: none;
+}
+.wd-back{
+    padding: 0;
+}
+.list-blog p{
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+.bs-blog-meta span{
+    font-weight: 400;
+}
+.list-blog .bs-blog-thumb{
+    margin-right: 2.5rem;
+}
+.bs-blog-post.single{
+    margin-bottom: 30px;
+    box-shadow: var(--bxsh);
+    overflow: hidden;
+    border-radius: 0;
+}
+.mainfeatured .list-blog .bs-blog-thumb {
+    width: 50.333333%;
+    max-width: 50.333333%;
+    min-width: 50.333333%;
+    height: 400px;
+    min-height: 250px;
+    margin-right: 25px;
+    background-color: #333;
+}
+.mainfeatured .bs-blog-post .title{
+    font-size: 2.5rem;
+}
+.mainfeatured .bs-blog-post p{
+    font-size: 1rem;
+}
+.mainfeatured .bs-blog-post{
+    margin-bottom: 3.84rem;
+}
+.bs-blog-post.three.md{
+    background-color: #333;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+@media (max-width: 767.98px) {
+    .mainfeatured .bs-blog-category{
+        justify-content: center;
+    }
+    .mainfeatured .small{
+        text-align: center;
+    }
+    .mainfeatured .list-blog .bs-blog-thumb{
+        height: 330px;
+        margin-right: 0;
+    }
+    .mainfeatured .bs-blog-post .title{
+        font-size: 2rem;
+    }
+    .list-blog .bs-blog-thumb{
+        margin-right: 0;
+    }
+}
+
+p a {
+    text-decoration: underline;
+}
+a:focus {
+    outline: 1px solid;
+}
+.navbar-toggler.x:focus {
+    outline: 1px solid #000;
+}
+
+@media (max-width: 991.98px) {
+    .m-header .navbar-toggler:focus {
+        outline: 2px solid;
+    }
+}
